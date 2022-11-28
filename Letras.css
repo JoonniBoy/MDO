@@ -6,14 +6,14 @@
 }
 body {
   min-height: 100vh;
-  display: flex;
+  text-align: center;
   justify-content: center;
   align-items: top;
 
-  background: -webkit-radial-gradient(#146ada, #0a0011);
+  background: -webkit-radial-gradient(#000000, #040007);
 }
 .container span {
-  font-size: 120pt;
+  font-size: 90pt;
   font-weight: bold;
   position: relative;
   font-family: "Fredoka One";
@@ -104,4 +104,10 @@ body {
 }
 .container span:nth-child(21) {
   color: #bb00ff;
+}
+  .container span:nth-child(22) {
+    color: #c5eb1e;
+  }
+  .container span:nth-child(23) {
+    color: #e91f1f;
 }
